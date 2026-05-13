@@ -23,3 +23,31 @@
 
 
 #------------ REVERSE A NUMBER
+
+
+# num = int(input("Enter a number : "))
+# rev = 0  #need to reverse the number
+# while num > 0:
+#     digit = num % 10  #accessing the last digit
+#     rev = rev * 10 + digit 
+#     num = num//10
+# print(rev)
+
+
+#----- wap to check wether a number is palindrome or not
+
+# num = int(input("Enter your num : "))
+# temp = num
+# rev = 0
+
+# while num > 0:
+#     digit = num % 10
+#     rev = rev * 10 + digit
+#     num = num//10
+# if temp == rev:
+#     print("palindrome")
+# else :
+#     print("not a palindrome")
+
+
+# ------- wap to check wether a string is palindrome or not
