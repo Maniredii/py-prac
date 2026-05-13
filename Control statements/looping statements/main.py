@@ -51,3 +51,28 @@
 
 
 # ------- wap to check wether a string is palindrome or not
+# s = input("Enter a string : ")
+# rev = ''
+# i = 0
+# while i < len(s):
+#     rev = s[i]+rev
+#     i = i +1
+# #print(rev) #rev a string
+# if s == rev:
+#     print("Palindrome")
+# else:
+#     print("not a palindrome")
+
+
+#----- wap to check wether the number is prime or not
+# n = int(input("Enter a num :"))
+# is_prime = True
+# i = 2
+# while i < n:
+#     if n % i == 0:
+#         is_prime = False
+#     i = i+1
+# if is_prime:
+#     print("prime number")
+# else:
+#     print("not a prime number")
