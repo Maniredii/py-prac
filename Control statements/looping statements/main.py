@@ -76,3 +76,36 @@
 #     print("prime number")
 # else:
 #     print("not a prime number")
+
+
+
+#--------- take two different list form the user and print only common values between them
+
+# list_1 = [1, 'hi', [4, 6, 2], 2, 3.142]
+# list_2 = [1, 1.1, 4, 6, 2]
+
+# i = 0
+# while i < len(list_1):
+#     if list_1[i] in list_2:
+#         print(list_1[i])
+#     i = i+1
+
+
+# ------- Implement the functionalities of "swap case" function 
+#   1. uppercase -- lowercase
+#   2. lowercase -- uppercase
+#   3. Digit -- keep it as it is 
+#   4. special character -- keep it as it is 
+
+# s = 'abC@1323'
+# and_s = ''
+# i = 0
+# while i < len(s):
+#     if 'A' <= s[i] <= 'Z':
+#         and_s = and_s + chr(ord(s[i])+32)
+#     elif 'a' <= s[i] <= 'z':
+#         and_s += chr(ord(s[i])-32)
+#     else:
+#         and_s += s[i]
+#     i = i+1
+# print(and_s)
