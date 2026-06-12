@@ -149,6 +149,8 @@ generate the first 20 terms of the fibonacci sequence using a loop
 # n = 20
 
 
+
+'''
 # simulate a simple lottery : generate a random number between 1 and 20 (hardcode for testing or use random) 
 # allow the user to guess 5 times. after each guess tell ig they are correct or not if correct print you win and exit the loop 
 # if all 5 guesses are wrong you lose the number was " "
@@ -166,3 +168,5 @@ while guesses < 5:
     guesses += 1
 if guesses >= 5:
     print(f"you loose the number are {win_num}")
+'''
+
